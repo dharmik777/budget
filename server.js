@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://burger:12345@burger.bpnxj.mongodb.net/budget",   {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://dharmik:Monkey1@thisonewillwork.698vd.mongodb.net/googleman",   {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
