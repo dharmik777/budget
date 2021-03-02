@@ -15,7 +15,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+
+mongoose.connect("mongodb+srv://burger:12345@burger.bpnxj.mongodb.net/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
